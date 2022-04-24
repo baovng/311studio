@@ -1,0 +1,204 @@
+@media (min-width:769px){
+    .wrapper{
+        min-width: 900px;
+    }
+    .work-content{
+        min-width: 750px; 
+    }
+    .footer-container{
+        min-width: 550px;
+    }
+    .services-items-icons-wrp{
+        min-width: 700px;
+    }
+}
+
+@media (max-width:768px) and (min-width:481px) {
+    .list-wrp{
+        flex-direction: column;
+    }
+    .list-wrp li{
+        margin: 20px; 
+    }
+    .list-wrp li a{
+        font-size: 2.2em;
+    }
+    .note{
+        font-size: 1.5em; 
+    }
+    .main-logo{
+        max-width: 200px;  
+    }
+    .work-content{
+        height: 40vh; 
+    }
+    .footer-container{
+        width: 70%; 
+    }
+    .site-services-content-wrp-1{
+        width: 75%;
+    }
+    .services-items-icons-wrp{
+        width: 85%;
+        min-width: 470px ;
+    }
+    .services-items-icons-list{
+        width:45%;
+        height: 200px; 
+    }
+    .services-items-content{
+        font-size: 1.8em; 
+
+    }
+    .site-services-content-title>p:nth-child(1){
+        font-size: 2.5em;
+    }
+    .site-services-content-title>p:nth-child(3){
+        font-size: 2em;
+    }
+    .site-services-content-title>p:nth-child(4){
+        font-size: 1.4em;
+    }
+    .home-agencies-image-wrp-left,.home-agencies-image-wrp{
+        float: none;
+        width: 90%;
+        max-height: 300px;
+        margin: auto; 
+    } 
+}
+
+@media (max-width: 481px) {
+    .wrapper{
+        width: 90%; 
+    }
+    .list-wrp{
+        flex-direction: column;
+    }
+    .list-wrp li a{
+        font-size: 1.8em;
+        word-wrap: break-word ;
+    }
+    .list-wrp li{
+        margin: 15px; 
+    }
+    .note{
+        font-size: 1.1em; 
+    }
+    .main-logo{
+        max-width: 150px;  
+    }
+    .circle, .circle>div{
+        height: 220px;
+        width: 220px;
+    }
+    .nav, .data{
+        height: 50vh; 
+    }
+    .data{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .data1 h4, .data1 p, .data1-2 h4, .data1-2 a,.nav-link{
+        font-size: 15px; 
+    }
+    .nav-logo{
+        max-width: 75px; ; 
+    }
+    .data1{
+        flex-direction: column;
+        height: 23vh;
+
+    }
+    .data2{
+        height: 23vh;
+    }
+    .data1-1, .data1-2{
+        width: 100%; 
+        margin: 5% 0 0; 
+    }
+    .nav-list{
+        height: 100%; 
+        flex-direction: column;
+        display: flex; 
+        justify-content: space-around;
+    }
+    .social-logo{
+        max-width: 20px;
+        height: auto;
+        width: 100%;
+        margin-right: 20px; 
+    }
+    nav{
+        transform: translateY(-80%);
+    }
+    .footer-container{
+        width: 85%; 
+    }
+    .contact-name-email-message{
+        flex-direction: column;
+    }
+    .contact-name-wrp, .contact-email-wrp{
+        width: 100%; 
+    }
+    .contact-email-wrp{
+        margin-top: 20px;
+    }
+    .contact-title, .work-title-1, .home-our-services-title{
+        font-size: 2em; 
+    }
+    .services-menuLink a, .contact-ask, .submit-button, .contact-email, .contact-name, .contact-message-content{
+        font-size: 1.1em; 
+    }
+    .work-title{
+        flex-direction: column;
+        height: 15vh;   
+    }
+    .work-title-2{
+        left:0;
+        top:10vh; 
+    }
+    .home-our-services-wrp{
+        flex-direction: column;
+    }
+    .home-our-services-img{
+        width: 100%;
+    }
+    .frame1{
+        width: 80%; 
+    }
+    .home-our-services-items{
+        margin-left: 35px; 
+    }
+    .work-title-1-1{
+        font-size: 3em; 
+    }
+    .site-services-content-wrp-1{
+        width: 80%; 
+    }
+    .site-services-content-title>p:nth-child(1){
+        font-size: 2em;
+    }
+    .site-services-content-title>p:nth-child(3){
+        font-size: 1.8em;
+    }
+    .site-services-content-title>p:nth-child(4){
+        font-size: 1em;
+    }
+    .services-items-icons-wrp{
+        width: 85%
+    }
+    .services-items-icons-list{
+        width:45%;
+        height: 170px; 
+    }
+    .services-items-content{
+        font-size: 1.3em;
+    }
+    .home-agencies-image-wrp-left,.home-agencies-image-wrp{
+        float: none;
+        width: 95%;
+        max-height: 200px;
+        margin: auto; 
+    } 
+}
